@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: none;
+    box-sizing: border-box;
+    color: #333;
+}
+
+body{
+    background-color:#fff;
+}
+
+.header {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdfd96;
+    padding: 30px;
+    flex-flow: column nowrap;
+    justify-content: center;  
+    align-items: center;
+    gap: 30px;
+}
+
+#add-btn{
+    border:#fff;
+    background-color: #202020;
+    color:#fff;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding:30px 0;
+}
+
+    .container .column{
+     width: 250px;
+     height: 500px;
+     background-color: #edeee9;
+     border-radius: 10px;
+     overflow: hidden;
+    }
+
+        .container .column .head{
+         background-color: #8ae0db;
+         padding: 15px;
+         text-align: center;
+         border-radius: 5px;
+        }
+
+        .container .column .body{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+        }
+            .container .column .body .card{
+                background-color: #ffffe0;
+                border-radius: 7px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                            
+            }            
+                .container .column .body .info{
+                    font-size: 14px;
+                    color: #fff;
+                    display: flex;
+                    flex-direction: column;                    
+                }
+
+
+#modal {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+    #modal .box {
+        background-color: #fff;
+        width: 400px;
+        border-radius: 7px;
+        overflow: hidden;
+    }
+        #modal .box .head {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+         
+            #modal .box .head span {
+            font-size: 17px;
+            font-weight: 700;
+            color: #333;
+            }
+         
+            #modal .box .head button{
+            border: none;
+            background: none;
+            font-size: 17px;
+            font-weight: 700;
+            cursor: pointer;
+            } 
+        
+        #modal .box .form {
+            padding: 20px;
+        } 
+
+            #modal .box .form .form-group {
+                margin-bottom: 15px;
+            }
+
+            #modal .box .form label {
+                display: block;
+                font-size: 14px;
+                color: #333;
+                margin-bottom: 5px;
+            }
+            
+            #modal .box .form textarea{
+                width: 100%;
+                border-radius: 7px;
+                padding: 10px 15px;
+                font-size: 14px;
+                border: 1px solid #999;
+                color:#333
+            }
+
+            #modal .box .form select{
+                width: 100%;
+                font-size: 14px;
+                color: #333;
+                padding: 10px;
+                border-radius: 7px;
+                border: 1px solid #999;
+            }
+
+            #modal .box .form input{
+                width: 100%;  
+                padding: 10px;
+                border-radius: 7px;
+                border: 1px solid #999;               
+            }
+
+            #modal .box .form button{
+                border: none;
+                background-color: darkgray;
+                color:#fff;
+                font-size: 16px;
+                font-weight: bolder;
+                padding: 9px 22px;
+                border-radius: 6px;
+                display: block;
+                margin-left: auto;
+                cursor: pointer;    
+
+            }
+
+
+
+         

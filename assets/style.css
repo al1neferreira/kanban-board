@@ -115,9 +115,10 @@ body{
             #modal .box .head button{
             border: none;
             background: none;
-            font-size: 17px;
+            font-size: 25 px;
             font-weight: 700;
             cursor: pointer;
+            color: #202020;
             } 
         
         #modal .box .form {
